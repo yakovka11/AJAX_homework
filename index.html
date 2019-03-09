@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #2b2b2b;
+        }
+
+        body * {
+            box-sizing: border-box
+        }
+
+        .wrapper {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 24px;
+            border-left: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <button id="load-brand-list">Get All Brands!</button>
+    <ul id="brands-list"></ul>
+    <div class="modal"></div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
